@@ -1,0 +1,30 @@
+.input-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+
+  > input {
+    outline: none;
+    border: 1px solid #fff;
+    box-shadow: none;
+    border-radius: 4px;
+    margin-right: 8px;
+    font-size: 32px;
+    padding: 8px;
+    width: 48px;
+    text-align: center;
+  }
+
+  > button {
+    background: #ba68c8;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 24px;
+    height: 56px;
+    cursor: pointer;
+  }
+}

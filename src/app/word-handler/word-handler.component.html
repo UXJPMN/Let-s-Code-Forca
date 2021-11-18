@@ -1,0 +1,6 @@
+<div class="handler-wrapper">
+  <span *ngFor="let char of displayWord(); index as i" class="">{{ char }} </span>
+</div>
+<div *ngIf="winGame()">
+  <app-win-modal></app-win-modal>
+</div>

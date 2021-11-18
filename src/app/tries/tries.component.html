@@ -1,0 +1,10 @@
+<div class="tries-wrapper">
+  <h2>{{triesLeft()}} tentativas restantes</h2>
+  <h2>Você já tentou:</h2>
+  <span *ngFor="let char of triedChars; index as i" class="right-char" [ngClass]="{'right-char': rightChar(char)}">
+    {{ char }} 
+  </span>
+</div>
+<div *ngIf="loseGame()">
+  <app-lose-modal></app-lose-modal>
+</div>

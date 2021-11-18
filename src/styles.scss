@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-sizing: border-box;
+  background: #000a12;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 80px;
+  text-align: center;
+}
+
+.modal {
+  position: fixed;
+  background: #000a12;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding-top: 80px;
+  font-size: 48px;
+}
